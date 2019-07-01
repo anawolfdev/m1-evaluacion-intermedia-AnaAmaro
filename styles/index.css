@@ -35,9 +35,6 @@ body {
     color: #4a4a4a;
 }
 
-.menu-item {
-    margin-left: 20px;
-}
 
 .menu-item2 {
     margin-left: 20px;
@@ -54,4 +51,19 @@ body {
 .description {
     color: #FFFFFF;
     font-size: 30px;
+}
+
+/* media */
+
+@media all and (min-width:768px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0;
+        padding: 20px 30px;
+    }
+    .description{
+        font-size: 40px;
+    }
 }
